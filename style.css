@@ -271,7 +271,7 @@ main.intro {
 }
 
 .cta.vibrant {
-  background: #1b5e20;
+  background: rgb(235, 235, 55);
   color: white;
   padding: 3rem 2rem;
   border-radius: 10px;
