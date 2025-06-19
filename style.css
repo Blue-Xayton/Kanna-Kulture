@@ -157,7 +157,7 @@ nav a:hover::after {
 /* The home page stylesheet*/
 
 /* General Styling */
-/* Global Styles m*/
+/* Global Styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -301,4 +301,63 @@ footer {
   text-align: center;
   color: #4e944f;
   margin-top: 2rem;
+}
+
+
+/* Mobile-first adjustments */
+
+/* Navigation — stack links vertically on small screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  nav a {
+    padding: 0.75rem;
+    text-align: center;
+  }
+}
+
+/* Hero Section — smaller text size on phones */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+/* Features — stack feature cards vertically */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .feature {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}
+
+/* CTA section — adjust padding and text size */
+@media (max-width: 768px) {
+  .cta.vibrant {
+    padding: 2rem 1rem;
+  }
+  .cta.vibrant h2 {
+    font-size: 1.55rem;
+  }
+  .cta.vibrant p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.65rem 1.2rem;
+    font-size: 0.95rem;
+  }
 }
