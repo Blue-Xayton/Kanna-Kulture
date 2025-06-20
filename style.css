@@ -222,7 +222,7 @@ nav {
   position:static;
   top: 0;
   z-index: 1000;
-  background:#0a0c0a;
+ background:#66bb6a;
 }
 
 nav a {
@@ -326,6 +326,7 @@ footer {
     padding: 0.75rem;
     text-align: center;
     background: #66bb6a;
+    
   }
 }
 
